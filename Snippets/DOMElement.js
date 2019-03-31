@@ -127,6 +127,13 @@ function Element(design, text) {
 }
 
  
+var toast = new Element({
+    background: "grey", color: "#fff",
+    left: "50%", bottom: "10vh", position: "absolute",
+    transform: "translate(-50%, 0)",
+    padding: "5px 10px 5px 10px", borderRadius: "5px",
+    zIndex: "100",
+});
 
 toast.makeToast = (text, duration) => {
     duration = duration || text.length*50;
