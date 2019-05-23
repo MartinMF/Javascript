@@ -1,0 +1,324 @@
+body {
+    background-color: #010110;
+    margin-top: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+* {
+    margin: 0;
+}
+
+#cvs {
+    position: absolute;
+    left: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#con {
+    position: absolute;
+    right:5%;
+    top:66%;
+    width:60%;
+    height:29%;
+}    
+
+button {
+    font-size:30px;
+    background-color:black;
+    color:white;
+    position:absolute;
+    box-shadow:0px 0px 3px 3px blue;
+    outline: none;
+    border-radius: 3px;
+}
+
+button:active {
+    color: red;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#right {
+    border:1px solid black;
+    left:67%;
+    top:25%;
+    width:30%;
+    height:50%;
+    border-radius:5% 50% 50% 5%;
+}
+
+#left {
+    border:1px solid black;
+    right:67%;
+    top:25%;
+    width:30%;
+    height:50%;
+    border-radius:50% 5% 5% 50%;
+}
+
+#up {
+    border:1px solid black;
+    right:35%;
+    width:30%;
+    height:51%;
+    border-radius:50% 50% 5% 5%;
+}
+
+#down {
+    border:1px solid black;
+    left:35%;
+    top: 55%;
+    width:30%;
+    height:51%;
+    border-radius:5% 5% 50% 50%;
+}
+
+#analyse {
+    top: 72%;
+    left: 5%;
+    width: 27%;
+    height: 5%;
+    box-shadow: none;
+    font-size: 1em;
+    border:1px solid black;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#analyse:enabled {
+    box-shadow:0px 0px 2px 2px blue;
+}
+
+#analyse:active {
+    color: red;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#pick {
+    top: 65%;
+    left: 5%;
+    width: 27%;
+    height: 5%;
+    box-shadow: none;
+    font-size: 1em;
+    border:1px solid black;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#pick:enabled {
+    box-shadow:0px 0px 2px 2px blue;
+}
+
+#pick:active {
+    color: red;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+
+#release {
+    top: 79%;
+    left: 5%;
+    width: 27%;
+    height: 5%;
+    box-shadow: none;
+    font-size: 1em;
+    border:1px solid black;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#release:enabled {
+    box-shadow:0px 0px 2px 2px blue;
+}
+
+#release:active {
+    color: red;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#snap {
+    top: 86%;
+    left: 5%;
+    width: 27%;
+    height: 5%;
+    box-shadow: none;
+    font-size: 1em;
+    border:1px solid black;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#snap:enabled {
+    box-shadow:0px 0px 2px 2px blue;
+}
+
+#snap:active {
+    color: red;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#review {
+    top: 93%;
+    left: 5%;
+    width: 27%;
+    height: 5%;
+    box-shadow: none;
+    font-size: .8em;
+    border:1px solid black;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#review:enabled {
+    box-shadow:0px 0px 2px 2px blue;
+}
+
+#review:active {
+    color: red;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#lv {
+    top: 91%;
+    right: 5%;
+    width: 16%;
+    height: 6%;
+    box-shadow: none;
+    font-size: 1em;
+    border:1px solid black;
+    box-shadow:0px 0px 2px 2px blue;
+}
+
+#lv:active {
+    color: red;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#term {
+    top: 91%;
+    left: 35%;
+    width: 18%;
+    height: 6%;
+    box-shadow: none;
+    font-size: .8em;
+    border:1px solid black;
+    box-shadow:0px 0px 2px 2px blue;
+}
+
+#term:active {
+    color: red;
+    box-shadow:0px 0px 2px 2px red;
+}
+
+#last_log {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    padding: 3px 10px 3px 10px;
+    border-radius: 100px;
+    font-size: 16px;
+    background: rgba(0,0,0,0.5);
+    color: lime;
+}
+
+
+
+
+
+
+
+
+
+
+/* Mars created by Ayhas */
+
+
+#splash {
+    background: #010159;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+
+
+.main {
+  position: absolute;
+  width: 50vh;
+  height: 50vh;
+  top: 25vh;
+  left: calc((100vw - 50vh) / 2);
+  border-radius: 50%;
+  background: orange;
+  transform: rotateZ(-15deg);
+  overflow: hidden;
+  animation: fly 5s infinite;
+  z-index: 2;
+}
+
+.shadow {
+  box-sizing: border-box;
+  background: none;
+  border-right: 20px solid rgba(100,100,100,.2);
+}
+
+.decoration {
+  position: absolute;
+  width: 50%;
+  height: 8%;
+  border-radius: 20px;
+}
+
+.a {width: 75%;background: #c77601}
+#a1 {top: 20%;left: 25%}
+#a2 {top: 60%;left: 0}
+
+.b {width: 13%;background: #955400}
+#b1 {top: 60%;left: 90%}
+#b2 {top: 7%;left: 15%}
+
+.c {width: 10%;background: #c96801}
+#c1 {top: 60%;left: 78%}
+#c2 {top: 20%;left: 9%}
+
+.d {width: 50%;background: #b85700}
+#d1 {top: 39%;left: 38%}
+#d2 {top: 87%;left: 10%}
+
+.e {width: 35%;background: #a74600}
+#e1 {top: 7%;left: 40%}
+#e2 {top: 73%;left: 35%}
+
+.f {width: 20%;background: #da7912}
+#f1 {top: 39%;left: -3%}
+#f2 {top: 87%;left: 70%}
+
+
+@keyframes fly {
+  0%{top:27vh}
+  50%{top:23vh}
+  100%{top:27vh}
+}
+
+#ecm {
+    top: 12%;
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#thx {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    color: white;
+    text-align: center;
+    bottom: 10%;
+}
+
