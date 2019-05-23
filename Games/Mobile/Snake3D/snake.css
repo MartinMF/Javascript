@@ -1,0 +1,69 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    padding: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#fps {
+    position: absolute;
+}
+
+* {user-select: none;}
+
+#highscore {
+    color: white;
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+}
+
+#score {
+    color: white;
+    position: absolute;
+    top: 1vw;
+    width: 100%;
+    text-align: center;
+}
+
+a {color: white; font-size: 4vw; margin: 1vw 0 1vw 0;}
+
+#snake_pos {
+    position: absolute;
+    top: 5vw;
+    left: 1vw;
+}
+
+#food_pos {
+    position: absolute;
+    top: 9vw;
+    left: 1vw;
+}
+
+#food_x {
+    margin-left: 1.5vw;
+}
+
+#info {
+    position: absolute;
+    top: 7vw;
+    right: 1vw;
+    font-size: 5vw;
+    font-family: bolder;
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+    border-radius: 50% 50% 50% 50%;
+    width: 7vw;
+    height: 7vw;
+    border-width: 0.5vw;
+    border-color: darkgrey;
+    outline: none;
+}
