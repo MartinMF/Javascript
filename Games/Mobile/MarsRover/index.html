@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mars rover</title>
+        <!-- Include mars.js and mars.css here -->
+    </head>
+    <body>
+        <canvas id="cvs"></canvas>
+        <div id="con">
+            <button id="up" onclick="up()">↑</button>
+            <button id="right" onclick="right()">→</button>
+            <button id="left" onclick="left()">←</button>
+            <button id="down" onclick="down()">↓</button>
+        </div>
+        <button id="analyse" onclick="analyse()">ANL</button>
+        <button id="pick" onclick="pick_up()">RCK</button>
+        <button id="release" onclick="release()">RLS</button>
+        <button id="snap" onclick="snap()">PIC</button>
+        <button id="review" onclick="review()">See Photo</button>
+        <button id="lv" onclick="view_log()">LOG</button>
+        <button id="term" onclick="terminal()">Terminal</button>
+        <a id="last_log">Started CPM</a>
+        
+        
+        <!-- Mars css by Ayhas -->
+        <div id="splash">
+            <p id="ecm">Establishing connection to Mars...</p>
+            <div class="main" id="main">
+                <div class="decoration a" id="a1"></div>
+                <div class="decoration a" id="a2"></div>
+                <div class="decoration b" id="b1"></div>
+                <div class="decoration b" id="b2"></div>
+                <div class="decoration c" id="c1"></div>
+                <div class="decoration c" id="c2"></div>
+                <div class="decoration d" id="d1"></div>
+                <div class="decoration d" id="d2"></div>
+                <div class="decoration e" id="e1"></div>
+                <div class="decoration e" id="e2"></div>
+                <div class="decoration f" id="f1"></div>
+                <div class="decoration f" id="f2"></div>
+            </div>
+            <a id="thx" href=
+            "https://www.sololearn.com/Profile/7841960/?ref=app"> 
+            © Animation created by Ayhas</a>
+            <div class="main shadow" id="main shadow"></div>
+        </div>
+    </body>
+</html>
